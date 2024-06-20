@@ -446,10 +446,22 @@ img {
   width: 75%;
 }
 .skills_javascript{
-  width: 60%;
+  width: 75%;
 }
 .skills_bootstrap{
+  width: 80%;
+}
+.skills_react{
   width: 60%;
+}
+.skills_mongo{
+  width: 80%;
+}
+.skills_express{
+  width: 75%;
+}
+.skills_nodejs{
+  width: 75%;
 }
 .skills_close .skills_list{
   height: 0px;
