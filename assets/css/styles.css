@@ -123,6 +123,29 @@ body.dark-theme .section > * {
   color: var(--first-color);
 }
 
+.home_buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.home_buttons .button {
+  min-width: 180px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .home_buttons {
+    flex-wrap: wrap;
+  }
+
+  .home_buttons .button {
+    width: 100%;
+  }
+}
+
 
 /*==================== BASE ====================*/
 * {
